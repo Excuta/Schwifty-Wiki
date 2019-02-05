@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <objectAnimator
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:duration="@integer/play_button_animation_duration"
+    android:duration="@integer/rm_rotation_duration"
     android:interpolator="@android:anim/accelerate_decelerate_interpolator"
     android:propertyName="rotation"
-    android:valueFrom="90"
-    android:valueTo="0"
-    android:valueType="floatType"/>
+    android:valueFrom="180"
+    android:valueTo="360"
+    android:valueType="floatType"/><!--  180-360  540-1080 -->

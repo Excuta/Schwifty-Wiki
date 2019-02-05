@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val handler = Handler()
+        val duration = 100L
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         val play2pause =
             AnimatedVectorDrawableCompat.create(applicationContext, R.drawable.r_to_m_animation)
@@ -44,7 +45,7 @@ class MainActivity : AppCompatActivity() {
                     handler.postDelayed({
                         message.setImageDrawable(pause2play)
                         pause2play?.start()
-                    }, 200)
+                    }, duration)
                 }
             }
         )
@@ -55,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                     handler.postDelayed({
                         message.setImageDrawable(play2pause)
                         play2pause?.start()
-                    }, 200)
+                    }, duration)
                 }
             }
         )

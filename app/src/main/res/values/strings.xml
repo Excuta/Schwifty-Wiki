@@ -4,17 +4,19 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
-    <!-- Play Icon -->
-    <string name="r_icon_first_path_data">M 12 8 L 12 32 C 40 20 8 8 12 8</string>
-    <string name="r_icon_second_path_data">M 12 52 L 12 32 C 40 40 40 40 32 52</string>
-    <!-- Pause Icon -->
-    <string name="m_icon_first_path_data">M 60 50 L 20 52 C 32 30 32 30 32 32</string>
-    <string name="m_icon_second_path_data">M 60 20 L 20 20 C 32 34 32 34 32 32</string>
+    <!-- R Icon -->
+    <string name="r_icon_first_path_data">M 12 8 L 12 32 C 42 32 42 4 12 8</string>
+    <string name="r_icon_second_path_data">M 12 56 L 12 32 C 30 40 36 50 38 56</string>
+    <!-- M Icon -->
+    <string name="m_icon_first_path_data">M 22 12 L 22 52 C 40 30 40 30 40 30</string>
+    <string name="m_icon_second_path_data">M 58 12 L 58 52 C 40 30 40 30 40 30</string>
     <!-- Groups -->
     <string name="rm_icon_first_part">upperpart</string>
     <string name="rm_icon_second_part">bottompart</string>
     <string name="rm_icon_parts">parts</string>
     <!-- Path Name -->
-    <string name="rm_icon_first_path_name">upper</string>
-    <string name="rm_icon_second_path_name">bottom</string>
+    <string name="rm_icon_first_path_name">first</string>
+    <string name="rm_icon_first_path_highlight_name">first highlight</string>
+    <string name="rm_icon_second_path_name">second</string>
+    <string name="rm_icon_second_path_highlight_name">second highlight</string>
 </resources>
