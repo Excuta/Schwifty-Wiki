@@ -33,9 +33,9 @@ class MainActivity : AppCompatActivity() {
         val handler = Handler()
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         val play2pause =
-            AnimatedVectorDrawableCompat.create(applicationContext, R.drawable.play_to_pause_animation)
+            AnimatedVectorDrawableCompat.create(applicationContext, R.drawable.r_to_m_animation)
         val pause2play =
-            AnimatedVectorDrawableCompat.create(applicationContext, R.drawable.pause_to_play_animation)
+            AnimatedVectorDrawableCompat.create(applicationContext, R.drawable.m_to_r_animation)
         message.setImageDrawable(play2pause)
         play2pause?.registerAnimationCallback(
             object : Animatable2Compat.AnimationCallback() {

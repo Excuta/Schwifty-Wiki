@@ -5,16 +5,16 @@
     <string name="title_notifications">Notifications</string>
 
     <!-- Play Icon -->
-    <string name="play_icon_upper_path_data">M 12 8 L 12 32 C 40 20 8 8 12 8</string>
-    <string name="play_icon_bottom_path_data">M 12 52 L 12 32 C 40 40 40 40 32 52</string>
+    <string name="r_icon_first_path_data">M 12 8 L 12 32 C 40 20 8 8 12 8</string>
+    <string name="r_icon_second_path_data">M 12 52 L 12 32 C 40 40 40 40 32 52</string>
     <!-- Pause Icon -->
-    <string name="pause_icon_upper_path_data">M 60 50 L 20 52 C 32 30 32 30 32 32</string>
-    <string name="pause_icon_bottom_path_data">M 60 20 L 20 20 C 32 34 32 34 32 32</string>
+    <string name="m_icon_first_path_data">M 60 50 L 20 52 C 32 30 32 30 32 32</string>
+    <string name="m_icon_second_path_data">M 60 20 L 20 20 C 32 34 32 34 32 32</string>
     <!-- Groups -->
-    <string name="play_icon_group_top">upperpart</string>
-    <string name="play_icon_group_bottom">bottompart</string>
-    <string name="play_icon_group_parts">parts</string>
+    <string name="rm_icon_first_part">upperpart</string>
+    <string name="rm_icon_second_part">bottompart</string>
+    <string name="rm_icon_parts">parts</string>
     <!-- Path Name -->
-    <string name="play_icon_top_path_name">upper</string>
-    <string name="play_icon_bottom_path_name">bottom</string>
+    <string name="rm_icon_first_path_name">upper</string>
+    <string name="rm_icon_second_path_name">bottom</string>
 </resources>

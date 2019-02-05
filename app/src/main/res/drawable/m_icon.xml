@@ -5,27 +5,27 @@
     android:viewportWidth="64"
     android:viewportHeight="64">
     <group
-        android:name="@string/play_icon_group_parts"
+        android:name="@string/rm_icon_parts"
         android:rotation="90"
         android:pivotX="32"
         android:pivotY="32"
         android:scaleX="1"
         android:scaleY="1">
 
-        <group android:name="@string/play_icon_group_top">
+        <group android:name="@string/rm_icon_first_part">
             <path
-                android:name="@string/play_icon_top_path_name"
-                android:pathData="@string/pause_icon_upper_path_data"
+                android:name="@string/rm_icon_first_path_name"
+                android:pathData="@string/m_icon_first_path_data"
                 android:strokeColor="@color/colorAccent"
                 android:strokeWidth="5"
                 android:strokeLineCap="round"
                 android:strokeLineJoin="round"
                 android:strokeMiterLimit="10"/>
         </group>
-        <group android:name="@string/play_icon_group_bottom">
+        <group android:name="@string/rm_icon_second_part">
             <path
-                android:name="@string/play_icon_bottom_path_name"
-                android:pathData="@string/pause_icon_bottom_path_data"
+                android:name="@string/rm_icon_second_path_name"
+                android:pathData="@string/m_icon_second_path_data"
                 android:strokeColor="@color/colorAccent"
                 android:strokeWidth="5"
                 android:strokeLineCap="round"
