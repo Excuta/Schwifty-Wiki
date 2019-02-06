@@ -4,6 +4,6 @@
     android:duration="@integer/rm_rotation_duration"
     android:interpolator="@android:anim/accelerate_decelerate_interpolator"
     android:propertyName="rotation"
-    android:valueFrom="180"
-    android:valueTo="360"
+    android:valueFrom="90"
+    android:valueTo="0"
     android:valueType="floatType"/><!--  180-360  540-1080 -->

@@ -8,8 +8,12 @@
     <string name="r_icon_first_path_data">M 23 8 L 23 32 C 53 32 53 4 23 8</string>
     <string name="r_icon_second_path_data">M 23 56 L 23 32 C 41 40 47 50 49 56</string>
     <!-- M Icon -->
-    <string name="m_icon_first_path_data">M 48 14 L 48 54 C 30 32 30 32 30 32</string>
-    <string name="m_icon_second_path_data">M 12 14 L 12 54 C 30 32 30 32 30 32</string>
+    <string name="m_icon_first_path_data">M 12 52 L 12 14 C 32 32 32 32 32 32</string>0
+    <string name="m_icon_second_path_data">M 48 52 L 48 14 C 32 32 32 32 32 32</string>0
+    <!--<string name="m_icon_first_path_data">M 48 52 L 12 52 C 32 32 32 32 32 32</string>90-->
+    <!--<string name="m_icon_second_path_data">M 48 14 L 12 14 C 32 32 32 32 32 32</string>90-->
+    <!--<string name="m_icon_first_path_data">M 48 14 L 48 54 C 30 32 30 32 30 32</string>180-->
+    <!--<string name="m_icon_second_path_data">M 12 14 L 12 54 C 30 32 30 32 30 32</string>180-->
     <!-- Groups -->
     <string name="rm_icon_first_part">upperpart</string>
     <string name="rm_icon_second_part">bottompart</string>
