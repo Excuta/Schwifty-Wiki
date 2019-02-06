@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        hideShow(true)
+//        hideShow(true)
     }
 
     private fun hideShow(b: Boolean) {

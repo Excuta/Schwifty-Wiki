@@ -4,5 +4,5 @@
                 android:interpolator="@android:interpolator/accelerate_decelerate"
                 android:propertyName="pathData"
                 android:valueFrom="@string/m_icon_second_path_data"
-                android:valueTo="@string/r_icon_second_path_data"
+                android:valueTo="@string/r_icon_first_path_data"
                 android:valueType="pathType"/>
