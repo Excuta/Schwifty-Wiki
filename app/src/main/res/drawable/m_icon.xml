@@ -5,13 +5,7 @@
     android:viewportHeight="64">
     <!--translation because view is not centered in custom view-->
     <group
-        android:name="@string/rm_icon_parts"
-        android:pivotX="32"
-        android:pivotY="32"
-        android:rotation="180"
-        android:scaleX="1"
-        android:scaleY="1"
-        android:translateX="6">
+        android:name="@string/rm_icon_parts">
 
         <group android:name="@string/rm_icon_first_part">
             <path
