@@ -2,11 +2,9 @@ package com.excuta.schwiftypedia.di.viewmodelfactory
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.excuta.schwiftypedia.core.component.CoreScope
 import javax.inject.Inject
 import javax.inject.Provider
 
-@CoreScope
 class DaggerViewModelFactory
 @Inject constructor(
 	private val creators: Map<Class<out ViewModel>, @JvmSuppressWildcards Provider<ViewModel>>
