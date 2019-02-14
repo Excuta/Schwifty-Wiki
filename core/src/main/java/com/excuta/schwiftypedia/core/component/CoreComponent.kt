@@ -15,23 +15,27 @@ import javax.inject.Scope
 @CoreScope
 @Component(modules = [RetrofitModule::class, ImageLoaderModule::class])
 interface CoreComponent {
-	fun picassoLoader(): @PicassoImageLoader ImageLoader
-	fun retrofit(): Retrofit
+    fun picassoLoader(): @PicassoImageLoader ImageLoader
+    fun retrofit(): Retrofit
 
-	@Component.Builder
-	interface Builder {
+    @Component.Builder
+    interface Builder {
 
-		@BindsInstance
-		fun retrofitBaseUrl(@BaseUrl baseUrl: String): Builder
+        @BindsInstance
+        fun retrofitBaseUrl(@BaseUrl baseUrl: String): Builder
 
-		@BindsInstance
-		fun appContext(context: Context): Builder
+        @BindsInstance
+        fun appContext(context: Context): Builder
 
-		@BindsInstance
-		fun loggingNetworkTag(@NetworkTag networkTag: String): Builder
+        @BindsInstance
+        fun loggingNetworkTag(@NetworkTag networkTag: String): Builder
 
-		fun build(): CoreComponent
-	}
+        fun build(): CoreComponent
+    }
+
+    interface Owner {
+        fun get(): CoreComponent
+    }
 }
 
 @Scope
