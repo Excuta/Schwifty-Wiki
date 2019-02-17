@@ -4,9 +4,9 @@ import android.content.Context
 import com.excuta.core.component.modules.imageloader.ImageLoaderModule
 import com.excuta.core.component.modules.imageloader.PicassoImageLoader
 import com.excuta.core.component.modules.imageloader.contract.ImageLoader
+import com.excuta.core.component.modules.networkclient.NetworkTag
 import com.excuta.core.component.modules.retrofit.BaseUrl
 import com.excuta.core.component.modules.retrofit.RetrofitModule
-import com.excuta.core.component.modules.networkclient.NetworkTag
 import dagger.BindsInstance
 import dagger.Component
 import retrofit2.Retrofit
