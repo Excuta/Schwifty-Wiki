@@ -23,6 +23,7 @@ object NetworkClientModule {
         return httpLoggingInterceptor
     }
 
+    @JvmStatic
     @CoreScope
     @Provides
     fun okHttpClient(interceptor: HttpLoggingInterceptor): OkHttpClient {
