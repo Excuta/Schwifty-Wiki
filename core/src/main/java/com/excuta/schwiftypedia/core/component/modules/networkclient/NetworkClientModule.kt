@@ -14,7 +14,7 @@ object NetworkClientModule {
     @JvmStatic
     @CoreScope
     @Provides
-    fun httpLogginInterceptor(@NetworkTag networkTag: String): HttpLoggingInterceptor {
+    fun httpLoggingInterceptor(@NetworkTag networkTag: String): HttpLoggingInterceptor {
         val httpLoggingInterceptor = HttpLoggingInterceptor(HttpLoggingInterceptor.Logger {
             val log = "$networkTag $it"
             Timber.d(log)
