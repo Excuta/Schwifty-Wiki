@@ -1,4 +1,4 @@
-package com.iconcreations.modules.core.di.core.modules.networkclient
+package com.excuta.core.component.modules.networkclient
 
 import com.excuta.core.component.CoreScope
 import dagger.Module
