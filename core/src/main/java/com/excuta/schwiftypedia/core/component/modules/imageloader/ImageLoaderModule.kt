@@ -8,7 +8,8 @@ import dagger.Module
 import dagger.Provides
 
 @Module(includes = [PicassoModule::class])
-class ImageLoaderModule {
+object ImageLoaderModule {
+    @JvmStatic
     @CoreScope
     @Provides
     fun picassoLoader(picasso: Picasso): @PicassoImageLoader ImageLoader {

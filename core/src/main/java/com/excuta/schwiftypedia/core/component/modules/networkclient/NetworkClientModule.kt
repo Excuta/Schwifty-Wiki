@@ -9,8 +9,9 @@ import timber.log.Timber
 import javax.inject.Qualifier
 
 @Module
-class NetworkClientModule {
+object NetworkClientModule {
 
+    @JvmStatic
     @CoreScope
     @Provides
     fun httpLogginInterceptor(@NetworkTag networkTag: String): HttpLoggingInterceptor {

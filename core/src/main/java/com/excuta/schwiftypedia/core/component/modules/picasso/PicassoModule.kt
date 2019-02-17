@@ -11,14 +11,16 @@ import dagger.Provides
 import okhttp3.OkHttpClient
 
 @Module(includes = [NetworkClientModule::class])
-class PicassoModule {
+object PicassoModule {
 
+    @JvmStatic
     @CoreScope
     @Provides
     fun downloader(okHttpClient: OkHttpClient): Downloader {
         return OkHttp3Downloader(okHttpClient)
     }
 
+    @JvmStatic
     @CoreScope
     @Provides
     fun picasso(appContext: Context, downloader: Downloader): Picasso {
