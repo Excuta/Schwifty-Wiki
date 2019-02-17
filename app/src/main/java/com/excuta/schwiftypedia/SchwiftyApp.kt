@@ -4,9 +4,9 @@ import android.app.Application
 import com.excuta.schwiftypedia.core.component.CoreComponent
 import com.excuta.schwiftypedia.core.component.DaggerCoreComponent
 
-typealias CoreComponentProvider = CoreComponent.Owner
+typealias CoreComponentOwner = CoreComponent.Owner
 
-class SchwiftyApp : Application(), CoreComponentProvider {
+class SchwiftyApp : Application(), CoreComponentOwner {
 
     override fun get(): CoreComponent {
         return coreComponent
@@ -23,10 +23,14 @@ class SchwiftyApp : Application(), CoreComponentProvider {
     }
 }
 
-fun Application.ifCoreComponentProvider(ifBlock: () -> Unit, elseBlock: () -> Unit = {}) {
-    if (this::class.isInstance(CoreComponentProvider::class)) {
-        ifBlock()
+fun Application.ifCoreComponentProvider(
+    ifBlock: CoreComponentOwner.() -> Unit,
+    elseBlock: Application.() -> Unit = {}
+) {
+    val owner = this as? CoreComponentOwner
+    if (owner != null) {
+        owner.ifBlock()
     } else {
-        elseBlock()
+        this.elseBlock()
     }
 }
