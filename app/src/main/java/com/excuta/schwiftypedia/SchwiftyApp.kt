@@ -1,8 +1,8 @@
 package com.excuta.schwiftypedia
 
 import android.app.Application
-import com.excuta.schwiftypedia.core.component.CoreComponent
-import com.excuta.schwiftypedia.core.component.DaggerCoreComponent
+import com.excuta.core.component.CoreComponent
+import com.excuta.core.component.DaggerCoreComponent
 
 typealias CoreComponentOwner = CoreComponent.Owner
 

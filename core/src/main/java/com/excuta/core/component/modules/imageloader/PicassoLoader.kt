@@ -1,9 +1,9 @@
-package com.excuta.schwiftypedia.core.component.modules.imageloader
+package com.excuta.core.component.modules.imageloader
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.ProgressBar
-import com.excuta.schwiftypedia.core.component.modules.imageloader.contract.ImageLoader
+import com.excuta.core.component.modules.imageloader.contract.ImageLoader
 import com.squareup.picasso.Callback
 import com.squareup.picasso.Picasso
 import javax.inject.Qualifier

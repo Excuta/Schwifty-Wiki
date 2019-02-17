@@ -1,4 +1,4 @@
-package com.excuta.schwiftypedia.core.component.modules.imageloader.contract
+package com.excuta.core.component.modules.imageloader.contract
 
 import android.widget.ImageView
 import android.widget.ProgressBar

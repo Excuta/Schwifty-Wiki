@@ -1,6 +1,6 @@
 package com.iconcreations.modules.core.di.core.modules.networkclient
 
-import com.excuta.schwiftypedia.core.component.CoreScope
+import com.excuta.core.component.CoreScope
 import dagger.Module
 import dagger.Provides
 import okhttp3.OkHttpClient

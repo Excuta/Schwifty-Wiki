@@ -1,7 +1,7 @@
-package com.excuta.schwiftypedia.core.component.modules.picasso
+package com.excuta.core.component.modules.picasso
 
 import android.content.Context
-import com.excuta.schwiftypedia.core.component.CoreScope
+import com.excuta.core.component.CoreScope
 import com.iconcreations.modules.core.di.core.modules.networkclient.NetworkClientModule
 import com.squareup.picasso.Downloader
 import com.squareup.picasso.OkHttp3Downloader

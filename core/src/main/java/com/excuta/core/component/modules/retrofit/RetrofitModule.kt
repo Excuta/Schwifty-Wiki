@@ -1,6 +1,6 @@
-package com.excuta.schwiftypedia.core.component.modules.retrofit
+package com.excuta.core.component.modules.retrofit
 
-import com.excuta.schwiftypedia.core.component.CoreScope
+import com.excuta.core.component.CoreScope
 import com.iconcreations.modules.core.di.core.modules.networkclient.NetworkClientModule
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import dagger.Module
